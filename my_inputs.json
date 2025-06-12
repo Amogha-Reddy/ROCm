@@ -1,0 +1,160 @@
+{
+  "artifacts": [
+    {
+      "name": "crictl",
+      "url": "https://github.com/kubernetes-sigs/cri-tools/releases/download/v1.31.1/crictl-v1.31.1-linux-amd64.tar.gz",
+      "version": "v1.31.0",
+      "type": "binary"
+    },
+    {
+      "name": "cni-plugins",
+      "url": "https://github.com/containernetworking/plugins/releases/download/v1.4.0/cni-plugins-linux-amd64-v1.4.0.tgz",
+      "version": "v1.4.0",
+      "type": "binary"
+    },
+    {
+      "name": "containerd",
+      "url": "https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/containerd.io_1.7.24-1_amd64.deb",
+      "version": "1.7.24",
+      "type": "binary"
+    },
+    {
+      "name": "docker-buildx-plugin",
+      "url": "https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/docker-buildx-plugin_0.21.1-1~ubuntu.24.04~noble_amd64.deb",
+      "version": "0.21.1",
+      "type": "binary"
+    },
+    {
+      "name": "docker-ce",
+      "url": "https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/docker-ce_28.0.1-1~ubuntu.24.04~noble_amd64.deb",
+      "version": "28.0.1",
+      "type": "binary"
+    },
+    {
+      "name": "docker-ce-cli",
+      "url": "https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/docker-ce-cli_28.0.1-1~ubuntu.24.04~noble_amd64.deb",
+      "version": "28.0.1",
+      "type": "binary"
+    },
+    {
+      "name": "docker-compose-plugin",
+      "url": "https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/docker-compose-plugin_2.33.1-1~ubuntu.24.04~noble_amd64.deb",
+      "version": "2.33.1",
+      "type": "binary"
+    },
+    {
+      "name": "kubeadm",
+      "url": "https://dl.k8s.io/release/v1.31.4/bin/linux/amd64/kubeadm",
+      "version": "v1.31.4",
+      "type": "binary"
+    },
+    {
+      "name": "kubectl",
+      "url": "https://dl.k8s.io/release/v1.31.4/bin/linux/amd64/kubectl",
+      "version": "v1.31.4",
+      "type": "binary"
+    },
+    {
+      "name": "kubelet",
+      "url": "https://dl.k8s.io/release/v1.31.4/bin/linux/amd64/kubelet",
+      "version": "v1.31.4",
+      "type": "binary"
+    },
+    {
+      "name": "kubelet-service",
+      "url": "https://raw.githubusercontent.com/kubernetes/release/v0.16.2/cmd/krel/templates/latest/kubelet/kubelet.service",
+      "version": "v0.16.2",
+      "type": "binary"
+    },
+    {
+      "name": "kubeadm-conf",
+      "url": "https://raw.githubusercontent.com/kubernetes/release/v0.16.2/cmd/krel/templates/latest/kubeadm/10-kubeadm.conf",
+      "version": "v0.16.2",
+      "type": "binary"
+    },
+    {
+      "name": "conntrack",
+      "url": "https://mirrors.tuna.tsinghua.edu.cn/ubuntu/pool/main/c/conntrack-tools/conntrack_1.4.6-2build2_amd64.deb",
+      "version": "1.4.6",
+      "type": "binary"
+    },
+    {
+      "name": "kube-apiserver",
+      "url": "registry.k8s.io/kube-apiserver:v1.31.4",
+      "version": "v1.31.4",
+      "type": "container_image"
+    },
+    {
+      "name": "kube-controller-manager",
+      "url": "registry.k8s.io/kube-controller-manager:v1.31.4",
+      "version": "v1.31.4",
+      "type": "container_image"
+    },
+    {
+      "name": "kube-scheduler",
+      "url": "registry.k8s.io/kube-scheduler:v1.31.4",
+      "version": "v1.31.4",
+      "type": "container_image"
+    },
+    {
+      "name": "kube-proxy",
+      "url": "registry.k8s.io/kube-proxy:v1.31.4",
+      "version": "v1.31.4",
+      "type": "container_image"
+    },
+    {
+      "name": "coredns",
+      "url": "registry.k8s.io/coredns/coredns:v1.11.3",
+      "version": "v1.11.3",
+      "type": "container_image"
+    },
+    {
+      "name": "pause",
+      "url": "registry.k8s.io/pause:3.10",
+      "version": "3.10",
+      "type": "container_image"
+    },
+    {
+      "name": "etcd",
+      "url": "registry.k8s.io/etcd:3.5.15-0",
+      "version": "3.5.15-0",
+      "type": "container_image"
+    },
+    {
+      "name": "etcdctl",
+      "url": "https://github.com/etcd-io/etcd/releases/download/v3.5.15/etcd-v3.5.15-linux-amd64.tar.gz",
+      "version": "v3.5.15",
+      "type": "binary"
+    },
+    {
+      "name": "kube-vip",
+      "url": "ghcr.io/kube-vip/kube-vip:v0.8.2",
+      "version": "v0.8.2",
+      "type": "container_image"
+    },
+    {
+      "name": "flannel-cni-plugin",
+      "url": "docker.io/flannel/flannel-cni-plugin:v1.1.2",
+      "version": "v1.1.2",
+      "type": "container_image"
+    },
+    {
+      "name": "flannel",
+      "url": "docker.io/flannel/flannel:v0.22.0",
+      "version": "v0.22.0",
+      "type": "container_image"
+    }
+  ],
+  "artifacts_id": "",
+  "cluster_type": "Multi-Node Clusters",
+  "environment_type": "airgapped",
+  "k8s_controlplane_nodes": [
+    "G636R14"
+  ],
+  "k8s_version": "v1.31.4",
+  "k8s_worker_nodes": [
+    "H2999X3"
+  ],
+  "kube_api_server_fqdn": "ubuntu.local",
+  "registry_baseurl": "registry.k8s.io"
+}
